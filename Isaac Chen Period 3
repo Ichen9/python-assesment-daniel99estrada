@@ -1,0 +1,20 @@
+user_name = input("Enter Your Username ")
+
+
+
+print("Hello, " + user_name)
+
+user_pass = input("Please enter Your Password ")
+print("Your Password is " + user_pass)
+user_pass_confirm = input("Please confirm Your Password ")
+
+while user_pass != user_pass_confirm:
+  print ("Please Try Again")
+
+
+
+if user_pass == user_pass_confirm:
+  print("Your Password is Confirmed")
+  
+  print("Welcome to the System")
+
